@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Reservacion_Restaurante.Form_sistemas;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,17 @@ namespace Reservacion_Restaurante
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form Menu = new OpcionesSistema();
+            Menu.Show();
         }
     }
 }
