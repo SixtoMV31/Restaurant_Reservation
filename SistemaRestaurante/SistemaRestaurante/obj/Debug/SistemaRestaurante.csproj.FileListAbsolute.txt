@@ -1,0 +1,17 @@
+C:\Users\jorge\OneDrive\Documentos\CuartoSemestre\Administracion de archivos\SistemaRestaurante\SistemaRestaurante\bin\Debug\SistemaRestaurante.exe.config
+C:\Users\jorge\OneDrive\Documentos\CuartoSemestre\Administracion de archivos\SistemaRestaurante\SistemaRestaurante\bin\Debug\SistemaRestaurante.exe
+C:\Users\jorge\OneDrive\Documentos\CuartoSemestre\Administracion de archivos\SistemaRestaurante\SistemaRestaurante\bin\Debug\SistemaRestaurante.pdb
+C:\Users\jorge\OneDrive\Documentos\CuartoSemestre\Administracion de archivos\SistemaRestaurante\SistemaRestaurante\obj\Debug\SistemaRestaurante.csproj.AssemblyReference.cache
+C:\Users\jorge\OneDrive\Documentos\CuartoSemestre\Administracion de archivos\SistemaRestaurante\SistemaRestaurante\obj\Debug\SistemaRestaurante.Form1.resources
+C:\Users\jorge\OneDrive\Documentos\CuartoSemestre\Administracion de archivos\SistemaRestaurante\SistemaRestaurante\obj\Debug\SistemaRestaurante.Properties.Resources.resources
+C:\Users\jorge\OneDrive\Documentos\CuartoSemestre\Administracion de archivos\SistemaRestaurante\SistemaRestaurante\obj\Debug\SistemaRestaurante.csproj.GenerateResource.cache
+C:\Users\jorge\OneDrive\Documentos\CuartoSemestre\Administracion de archivos\SistemaRestaurante\SistemaRestaurante\obj\Debug\SistemaRestaurante.csproj.CoreCompileInputs.cache
+C:\Users\jorge\OneDrive\Documentos\CuartoSemestre\Administracion de archivos\SistemaRestaurante\SistemaRestaurante\obj\Debug\SistemaRestaurante.exe
+C:\Users\jorge\OneDrive\Documentos\CuartoSemestre\Administracion de archivos\SistemaRestaurante\SistemaRestaurante\obj\Debug\SistemaRestaurante.pdb
+C:\Users\jorge\OneDrive\Documentos\CuartoSemestre\Administracion de archivos\SistemaRestaurante\SistemaRestaurante\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\jorge\OneDrive\Documentos\CuartoSemestre\Administracion de archivos\SistemaRestaurante\SistemaRestaurante\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\jorge\OneDrive\Documentos\CuartoSemestre\Administracion de archivos\SistemaRestaurante\SistemaRestaurante\obj\Debug\SistemaR.51CB0D6F.Up2Date
+C:\Users\jorge\OneDrive\Documentos\CuartoSemestre\Administracion de archivos\SistemaRestaurante\SistemaRestaurante\obj\Debug\SistemaRestaurante.Administrador.resources
+C:\Users\zente\OneDrive\Escritorio\Arlet\SistemaRestaurante\SistemaRestaurante\obj\Debug\SistemaRestaurante.csproj.AssemblyReference.cache
+C:\Users\zente\OneDrive\Escritorio\Arlet\SistemaRestaurante\SistemaRestaurante\obj\Debug\SistemaRestaurante.exe
+C:\Users\zente\OneDrive\Escritorio\Arlet\SistemaRestaurante\SistemaRestaurante\obj\Debug\SistemaRestaurante.pdb
