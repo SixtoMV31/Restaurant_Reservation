@@ -113,6 +113,26 @@ namespace Reservacion_Restaurante.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap dinner_table_1209474 {
+            get {
+                object obj = ResourceManager.GetObject("dinner-table_1209474", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dinner_table_1209474__1_ {
+            get {
+                object obj = ResourceManager.GetObject("dinner-table_1209474 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap images__1_ {
             get {
                 object obj = ResourceManager.GetObject("images (1)", resourceCulture);
@@ -126,6 +146,16 @@ namespace Reservacion_Restaurante.Properties {
         internal static System.Drawing.Bitmap minimize_10023957 {
             get {
                 object obj = ResourceManager.GetObject("minimize_10023957", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap order_food_11528993__1_ {
+            get {
+                object obj = ResourceManager.GetObject("order-food_11528993 (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -121,28 +121,37 @@
   <data name="images (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="1810747 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1810747 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="minimize_10023957" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\minimize_10023957.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="7542547 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\7542547 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="unlock_8679838" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\unlock_8679838.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="10711627 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\10711627 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="delete_10024111" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete_10024111.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="user_12483574" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user_12483574.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="delete_10024111" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\delete_10024111.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="7542547 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7542547 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minimize_10023957" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\minimize_10023957.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dinner-table_1209474" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dinner-table_1209474.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dinner-table_1209474 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dinner-table_1209474 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="800w-ix3sXZSPVeg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\800w-ix3sXZSPVeg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10711627 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10711627 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unlock_8679838" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\unlock_8679838.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1810747 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1810747 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="order-food_11528993 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\order-food_11528993 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

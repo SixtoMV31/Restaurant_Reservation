@@ -16,5 +16,17 @@ namespace Reservacion_Restaurante.Form_sistemas
         {
             InitializeComponent();
         }
+
+        private void btnReservas_Click(object sender, EventArgs e)
+        {
+            Form añadirreserva = new FormAñadirReservas();
+            añadirreserva.Show();
+        }
+
+        private void btnMesas_Click(object sender, EventArgs e)
+        {
+            Form mesas = new FormMesas();
+            mesas.Show();
+        }
     }
 }

@@ -55,10 +55,9 @@
             this.BtnCerrarSesion.BackColor = System.Drawing.Color.DarkOrange;
             this.BtnCerrarSesion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnCerrarSesion.ForeColor = System.Drawing.Color.White;
-            this.BtnCerrarSesion.Location = new System.Drawing.Point(13, 482);
-            this.BtnCerrarSesion.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnCerrarSesion.Location = new System.Drawing.Point(10, 392);
             this.BtnCerrarSesion.Name = "BtnCerrarSesion";
-            this.BtnCerrarSesion.Size = new System.Drawing.Size(183, 48);
+            this.BtnCerrarSesion.Size = new System.Drawing.Size(137, 39);
             this.BtnCerrarSesion.TabIndex = 2;
             this.BtnCerrarSesion.Text = "Cerrar sesion";
             this.BtnCerrarSesion.UseVisualStyleBackColor = false;
@@ -74,31 +73,37 @@
             this.panel1.Controls.Add(this.BtnCerrarSesion);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(244, 554);
+            this.panel1.Size = new System.Drawing.Size(183, 450);
             this.panel1.TabIndex = 3;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(43, 221);
+            this.label2.Location = new System.Drawing.Point(32, 180);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(138, 25);
+            this.label2.Size = new System.Drawing.Size(110, 20);
             this.label2.TabIndex = 6;
             this.label2.Text = "Jorge Mendez";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(12, 18);
+            this.label1.Location = new System.Drawing.Point(9, 15);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(192, 29);
+            this.label1.Size = new System.Drawing.Size(150, 24);
             this.label1.TabIndex = 4;
             this.label1.Text = "Gerente General";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // button1
             // 
@@ -107,9 +112,10 @@
             this.button1.BackColor = System.Drawing.Color.DarkOrange;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(13, 398);
+            this.button1.Location = new System.Drawing.Point(10, 323);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(183, 55);
+            this.button1.Size = new System.Drawing.Size(137, 45);
             this.button1.TabIndex = 3;
             this.button1.Text = "Regresar ";
             this.button1.UseVisualStyleBackColor = false;
@@ -120,10 +126,12 @@
             this.panel2.BackColor = System.Drawing.Color.Gold;
             this.panel2.Controls.Add(this.label3);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(244, 0);
+            this.panel2.Location = new System.Drawing.Point(183, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(823, 57);
+            this.panel2.Size = new System.Drawing.Size(617, 46);
             this.panel2.TabIndex = 4;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // label3
             // 
@@ -133,21 +141,25 @@
             this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(320, 9);
+            this.label3.Location = new System.Drawing.Point(240, 7);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(159, 36);
+            this.label3.Size = new System.Drawing.Size(129, 29);
             this.label3.TabIndex = 0;
             this.label3.Text = "Buger king";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(17, 50);
+            this.pictureBox1.Location = new System.Drawing.Point(13, 41);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(189, 165);
+            this.pictureBox1.Size = new System.Drawing.Size(142, 134);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // panel3
             // 
@@ -158,8 +170,9 @@
             this.panel3.Controls.Add(this.btnReservas);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1067, 554);
+            this.panel3.Size = new System.Drawing.Size(800, 450);
             this.panel3.TabIndex = 7;
             // 
             // button2
@@ -169,13 +182,15 @@
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.Brown;
             this.button2.Image = global::Reservacion_Restaurante.Properties.Resources.images__1_;
-            this.button2.Location = new System.Drawing.Point(315, 353);
+            this.button2.Location = new System.Drawing.Point(236, 287);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(328, 177);
+            this.button2.Size = new System.Drawing.Size(246, 144);
             this.button2.TabIndex = 5;
             this.button2.Text = "Historial de Pagos";
             this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -184,13 +199,15 @@
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.Brown;
             this.button3.Image = global::Reservacion_Restaurante.Properties.Resources._7542547__1_;
-            this.button3.Location = new System.Drawing.Point(678, 353);
+            this.button3.Location = new System.Drawing.Point(508, 287);
+            this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(336, 177);
+            this.button3.Size = new System.Drawing.Size(252, 144);
             this.button3.TabIndex = 6;
             this.button3.Text = "Clientes - Visitas";
             this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // btnMesas
             // 
@@ -199,10 +216,9 @@
             this.btnMesas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMesas.ForeColor = System.Drawing.Color.Brown;
             this.btnMesas.Image = global::Reservacion_Restaurante.Properties.Resources._1810747__1_;
-            this.btnMesas.Location = new System.Drawing.Point(678, 147);
-            this.btnMesas.Margin = new System.Windows.Forms.Padding(4);
+            this.btnMesas.Location = new System.Drawing.Point(508, 119);
             this.btnMesas.Name = "btnMesas";
-            this.btnMesas.Size = new System.Drawing.Size(336, 171);
+            this.btnMesas.Size = new System.Drawing.Size(252, 139);
             this.btnMesas.TabIndex = 1;
             this.btnMesas.Text = "Cancelar Reserva";
             this.btnMesas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -216,10 +232,9 @@
             this.btnReservas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReservas.ForeColor = System.Drawing.Color.Brown;
             this.btnReservas.Image = global::Reservacion_Restaurante.Properties.Resources._10711627__1_;
-            this.btnReservas.Location = new System.Drawing.Point(315, 147);
-            this.btnReservas.Margin = new System.Windows.Forms.Padding(4);
+            this.btnReservas.Location = new System.Drawing.Point(236, 119);
             this.btnReservas.Name = "btnReservas";
-            this.btnReservas.Size = new System.Drawing.Size(328, 171);
+            this.btnReservas.Size = new System.Drawing.Size(246, 139);
             this.btnReservas.TabIndex = 0;
             this.btnReservas.Text = "Ver Reservas";
             this.btnReservas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -228,15 +243,15 @@
             // 
             // OpcionesSistema
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel3);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "OpcionesSistema";
             this.Text = "OpcionesSistema";
+            this.Load += new System.EventHandler(this.OpcionesSistema_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
