@@ -29,58 +29,24 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(OpcionesSistema));
-            this.btnReservas = new System.Windows.Forms.Button();
-            this.btnMesas = new System.Windows.Forms.Button();
             this.BtnCerrarSesion = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
+            this.btnMesas = new System.Windows.Forms.Button();
+            this.btnReservas = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // btnReservas
-            // 
-            this.btnReservas.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnReservas.AutoSize = true;
-            this.btnReservas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReservas.ForeColor = System.Drawing.Color.Brown;
-            this.btnReservas.Image = ((System.Drawing.Image)(resources.GetObject("btnReservas.Image")));
-            this.btnReservas.Location = new System.Drawing.Point(315, 147);
-            this.btnReservas.Margin = new System.Windows.Forms.Padding(4);
-            this.btnReservas.Name = "btnReservas";
-            this.btnReservas.Size = new System.Drawing.Size(328, 171);
-            this.btnReservas.TabIndex = 0;
-            this.btnReservas.Text = "Ver Reservas";
-            this.btnReservas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnReservas.UseVisualStyleBackColor = true;
-            this.btnReservas.Click += new System.EventHandler(this.btnReservas_Click);
-            // 
-            // btnMesas
-            // 
-            this.btnMesas.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnMesas.AutoSize = true;
-            this.btnMesas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMesas.ForeColor = System.Drawing.Color.Brown;
-            this.btnMesas.Image = ((System.Drawing.Image)(resources.GetObject("btnMesas.Image")));
-            this.btnMesas.Location = new System.Drawing.Point(678, 147);
-            this.btnMesas.Margin = new System.Windows.Forms.Padding(4);
-            this.btnMesas.Name = "btnMesas";
-            this.btnMesas.Size = new System.Drawing.Size(336, 171);
-            this.btnMesas.TabIndex = 1;
-            this.btnMesas.Text = "Cancelar Reserva";
-            this.btnMesas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnMesas.UseVisualStyleBackColor = true;
-            this.btnMesas.Click += new System.EventHandler(this.btnMesas_Click);
             // 
             // BtnCerrarSesion
             // 
@@ -112,15 +78,27 @@
             this.panel1.Size = new System.Drawing.Size(244, 554);
             this.panel1.TabIndex = 3;
             // 
-            // panel2
+            // label2
             // 
-            this.panel2.BackColor = System.Drawing.Color.Gold;
-            this.panel2.Controls.Add(this.label3);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(244, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(823, 57);
-            this.panel2.TabIndex = 4;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(43, 221);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(138, 25);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "Jorge Mendez";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(12, 18);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(192, 29);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Gerente General";
             // 
             // button1
             // 
@@ -137,67 +115,15 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // panel2
             // 
-            this.button2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button2.AutoSize = true;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.Brown;
-            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.Location = new System.Drawing.Point(315, 353);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(328, 177);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "Historial de Pagos";
-            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button3.AutoSize = true;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.Brown;
-            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.Location = new System.Drawing.Point(678, 353);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(336, 177);
-            this.button3.TabIndex = 6;
-            this.button3.Text = "Clientes - Visitas";
-            this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(12, 18);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(192, 29);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Gerente General";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(17, 50);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(189, 165);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(43, 221);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(138, 25);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "Jorge Mendez";
+            this.panel2.BackColor = System.Drawing.Color.Gold;
+            this.panel2.Controls.Add(this.label3);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(244, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(823, 57);
+            this.panel2.TabIndex = 4;
             // 
             // label3
             // 
@@ -213,9 +139,19 @@
             this.label3.TabIndex = 0;
             this.label3.Text = "Buger king";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(17, 50);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(189, 165);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 5;
+            this.pictureBox1.TabStop = false;
+            // 
             // panel3
             // 
-            this.panel3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel3.BackgroundImage")));
+            this.panel3.BackgroundImage = global::Reservacion_Restaurante.Properties.Resources._800w_ix3sXZSPVeg;
             this.panel3.Controls.Add(this.button2);
             this.panel3.Controls.Add(this.button3);
             this.panel3.Controls.Add(this.btnMesas);
@@ -225,6 +161,70 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1067, 554);
             this.panel3.TabIndex = 7;
+            // 
+            // button2
+            // 
+            this.button2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button2.AutoSize = true;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.Brown;
+            this.button2.Image = global::Reservacion_Restaurante.Properties.Resources.images__1_;
+            this.button2.Location = new System.Drawing.Point(315, 353);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(328, 177);
+            this.button2.TabIndex = 5;
+            this.button2.Text = "Historial de Pagos";
+            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button3.AutoSize = true;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.Brown;
+            this.button3.Image = global::Reservacion_Restaurante.Properties.Resources._7542547__1_;
+            this.button3.Location = new System.Drawing.Point(678, 353);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(336, 177);
+            this.button3.TabIndex = 6;
+            this.button3.Text = "Clientes - Visitas";
+            this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // btnMesas
+            // 
+            this.btnMesas.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnMesas.AutoSize = true;
+            this.btnMesas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMesas.ForeColor = System.Drawing.Color.Brown;
+            this.btnMesas.Image = global::Reservacion_Restaurante.Properties.Resources._1810747__1_;
+            this.btnMesas.Location = new System.Drawing.Point(678, 147);
+            this.btnMesas.Margin = new System.Windows.Forms.Padding(4);
+            this.btnMesas.Name = "btnMesas";
+            this.btnMesas.Size = new System.Drawing.Size(336, 171);
+            this.btnMesas.TabIndex = 1;
+            this.btnMesas.Text = "Cancelar Reserva";
+            this.btnMesas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnMesas.UseVisualStyleBackColor = true;
+            this.btnMesas.Click += new System.EventHandler(this.btnMesas_Click);
+            // 
+            // btnReservas
+            // 
+            this.btnReservas.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnReservas.AutoSize = true;
+            this.btnReservas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReservas.ForeColor = System.Drawing.Color.Brown;
+            this.btnReservas.Image = global::Reservacion_Restaurante.Properties.Resources._10711627__1_;
+            this.btnReservas.Location = new System.Drawing.Point(315, 147);
+            this.btnReservas.Margin = new System.Windows.Forms.Padding(4);
+            this.btnReservas.Name = "btnReservas";
+            this.btnReservas.Size = new System.Drawing.Size(328, 171);
+            this.btnReservas.TabIndex = 0;
+            this.btnReservas.Text = "Ver Reservas";
+            this.btnReservas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnReservas.UseVisualStyleBackColor = true;
+            this.btnReservas.Click += new System.EventHandler(this.btnReservas_Click);
             // 
             // OpcionesSistema
             // 
