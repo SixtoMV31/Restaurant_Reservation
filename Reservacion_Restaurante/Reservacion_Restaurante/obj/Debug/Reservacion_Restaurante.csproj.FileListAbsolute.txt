@@ -9,3 +9,14 @@ C:\Users\mende\Desktop\Sixto UNI\4° Semestre\Organizacion de datos\Proyecto Sis
 C:\Users\mende\Desktop\Sixto UNI\4° Semestre\Organizacion de datos\Proyecto Sistema Restaurante\Reservacion_Restaurante\Reservacion_Restaurante\obj\Debug\Reservacion_Restaurante.exe
 C:\Users\mende\Desktop\Sixto UNI\4° Semestre\Organizacion de datos\Proyecto Sistema Restaurante\Reservacion_Restaurante\Reservacion_Restaurante\obj\Debug\Reservacion_Restaurante.pdb
 C:\Users\mende\Desktop\Sixto UNI\4° Semestre\Organizacion de datos\Proyecto Sistema Restaurante\Reservacion_Restaurante\Reservacion_Restaurante\obj\Debug\Reservacion_Restaurante.Form1.resources
+C:\Users\jorge\Restaurant_Reservation\Reservacion_Restaurante\Reservacion_Restaurante\bin\Debug\Reservacion_Restaurante.exe.config
+C:\Users\jorge\Restaurant_Reservation\Reservacion_Restaurante\Reservacion_Restaurante\bin\Debug\Reservacion_Restaurante.exe
+C:\Users\jorge\Restaurant_Reservation\Reservacion_Restaurante\Reservacion_Restaurante\bin\Debug\Reservacion_Restaurante.pdb
+C:\Users\jorge\Restaurant_Reservation\Reservacion_Restaurante\Reservacion_Restaurante\obj\Debug\Reservacion_Restaurante.csproj.AssemblyReference.cache
+C:\Users\jorge\Restaurant_Reservation\Reservacion_Restaurante\Reservacion_Restaurante\obj\Debug\Reservacion_Restaurante.Form1.resources
+C:\Users\jorge\Restaurant_Reservation\Reservacion_Restaurante\Reservacion_Restaurante\obj\Debug\Reservacion_Restaurante.Form_sistemas.OpcionesSistema.resources
+C:\Users\jorge\Restaurant_Reservation\Reservacion_Restaurante\Reservacion_Restaurante\obj\Debug\Reservacion_Restaurante.Properties.Resources.resources
+C:\Users\jorge\Restaurant_Reservation\Reservacion_Restaurante\Reservacion_Restaurante\obj\Debug\Reservacion_Restaurante.csproj.GenerateResource.cache
+C:\Users\jorge\Restaurant_Reservation\Reservacion_Restaurante\Reservacion_Restaurante\obj\Debug\Reservacion_Restaurante.csproj.CoreCompileInputs.cache
+C:\Users\jorge\Restaurant_Reservation\Reservacion_Restaurante\Reservacion_Restaurante\obj\Debug\Reservacion_Restaurante.exe
+C:\Users\jorge\Restaurant_Reservation\Reservacion_Restaurante\Reservacion_Restaurante\obj\Debug\Reservacion_Restaurante.pdb

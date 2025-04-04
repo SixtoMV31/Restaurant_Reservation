@@ -27,14 +27,16 @@ namespace Reservacion_Restaurante
         {
 
         }
-
+        
         private void ACCEDER_Click(object sender, EventArgs e)
         {
+
             if (txtUsuario.Text == "Jorge" && txtPass.Text == "1234")
             {
                 OpcionesSistema Administrador = new OpcionesSistema();
+                
                 Administrador.ShowDialog();
-                this.Close();
+                this.Hide();
 
             }
             else if (txtUsuario.Text == "Sixto" && txtPass.Text == "5678")

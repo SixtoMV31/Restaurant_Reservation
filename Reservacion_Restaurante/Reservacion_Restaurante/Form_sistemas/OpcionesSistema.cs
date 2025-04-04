@@ -28,5 +28,26 @@ namespace Reservacion_Restaurante.Form_sistemas
             Form Mesas=new FormMesas();
             Mesas.Show();
         }
+
+        private void BtnCerrarSesion_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form1 form1 = new Form1();
+            if (form1 != null)
+            {
+                form1.Show();
+                this.Close(); 
+            }
+            else
+            {
+                Form anterior = new Form1();
+                anterior.Show();
+                this.Close();
+            }
+        }
     }
 }
