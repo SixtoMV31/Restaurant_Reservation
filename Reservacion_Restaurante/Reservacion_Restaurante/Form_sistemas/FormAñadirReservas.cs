@@ -16,5 +16,21 @@ namespace Reservacion_Restaurante.Form_sistemas
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form1 RegresarEmpleado = new Form1();
+            if (RegresarEmpleado != null)
+            {
+                RegresarEmpleado.Show();
+                this.Close();
+            }
+            else
+            {
+                Form anteriorEmpleado = new Form1();
+                anteriorEmpleado.Show();
+                this.Close();
+            }
+        }
     }
 }

@@ -37,6 +37,7 @@ namespace Reservacion_Restaurante
                 
                 Administrador.ShowDialog();
                 this.Hide();
+                
 
             }
             else if (txtUsuario.Text == "Sixto" && txtPass.Text == "5678")
