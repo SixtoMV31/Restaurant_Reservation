@@ -12,6 +12,7 @@ namespace Reservacion_Restaurante.Form_sistemas
 {
     public partial class OpcionesSistema : Form
     {
+        
         public OpcionesSistema()
         {
             InitializeComponent();
@@ -19,8 +20,12 @@ namespace Reservacion_Restaurante.Form_sistemas
 
         private void btnReservas_Click(object sender, EventArgs e)
         {
+            
             Form Reserva=new FormReservas();
             Reserva.Show();
+            this.Close();
+            //OpcionesSistema opcionesSistema=new OpcionesSistema();
+            //opcionesSistema.Close();
         }
 
         private void btnMesas_Click(object sender, EventArgs e)

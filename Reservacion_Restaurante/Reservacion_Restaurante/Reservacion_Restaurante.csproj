@@ -93,6 +93,9 @@
     <EmbeddedResource Include="Form_sistemas\FormAñadirReservas.resx">
       <DependentUpon>FormAñadirReservas.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form_sistemas\FormReservas.resx">
+      <DependentUpon>FormReservas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form_sistemas\OpcionesSistema.resx">
       <DependentUpon>OpcionesSistema.cs</DependentUpon>
     </EmbeddedResource>
