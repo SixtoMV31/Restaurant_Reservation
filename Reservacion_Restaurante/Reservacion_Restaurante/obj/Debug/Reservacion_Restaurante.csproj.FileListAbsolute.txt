@@ -25,3 +25,4 @@ C:\Users\mende\Desktop\Sixto UNI\4° Semestre\Organizacion de datos\Proyecto Sis
 C:\Users\jorge\Restaurant_Reservation\Reservacion_Restaurante\Reservacion_Restaurante\obj\Debug\Reservacion_Restaurante.Form_sistemas.Empleado.resources
 C:\Users\jorge\Restaurant_Reservation\Reservacion_Restaurante\Reservacion_Restaurante\obj\Debug\Reservacion_Restaurante.Form_sistemas.FormAñadirReservas.resources
 C:\Users\jorge\Restaurant_Reservation\Reservacion_Restaurante\Reservacion_Restaurante\obj\Debug\Reservacion_Restaurante.Form_sistemas.FormReservas.resources
+C:\Users\mende\Desktop\Sixto UNI\4° Semestre\Organizacion de datos\Proyecto Sistema Restaurante\Reservacion_Restaurante\Reservacion_Restaurante\obj\Debug\Reservacion_Restaurante.Form_sistemas.FormReservas.resources

@@ -38,18 +38,27 @@
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.BtnCerrarSesion = new System.Windows.Forms.Button();
-            this.txtBNombre = new System.Windows.Forms.TextBox();
+            this.txtNombre = new System.Windows.Forms.TextBox();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.txtBTelefono = new System.Windows.Forms.TextBox();
-            this.txtBApellido = new System.Windows.Forms.TextBox();
-            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
+            this.txtTelefono = new System.Windows.Forms.TextBox();
+            this.txtApellidoPaterno = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.btnGuardar = new System.Windows.Forms.Button();
+            this.dtpFecha = new System.Windows.Forms.DateTimePicker();
+            this.numPersonas = new System.Windows.Forms.NumericUpDown();
+            this.numMesa = new System.Windows.Forms.NumericUpDown();
+            this.txtApellidoMaterno = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numPersonas)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numMesa)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
@@ -158,51 +167,37 @@
             this.BtnCerrarSesion.Text = "Cerrar sesion";
             this.BtnCerrarSesion.UseVisualStyleBackColor = false;
             // 
-            // txtBNombre
+            // txtNombre
             // 
-            this.txtBNombre.Location = new System.Drawing.Point(361, 79);
-            this.txtBNombre.Name = "txtBNombre";
-            this.txtBNombre.Size = new System.Drawing.Size(165, 20);
-            this.txtBNombre.TabIndex = 13;
+            this.txtNombre.Location = new System.Drawing.Point(321, 117);
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(165, 20);
+            this.txtNombre.TabIndex = 13;
+            this.txtNombre.TextChanged += new System.EventHandler(this.txtBNombre_TextChanged);
             // 
             // contextMenuStrip1
             // 
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
-            // txtBTelefono
+            // txtTelefono
             // 
-            this.txtBTelefono.Location = new System.Drawing.Point(361, 155);
-            this.txtBTelefono.Name = "txtBTelefono";
-            this.txtBTelefono.Size = new System.Drawing.Size(165, 20);
-            this.txtBTelefono.TabIndex = 16;
+            this.txtTelefono.Location = new System.Drawing.Point(321, 193);
+            this.txtTelefono.Name = "txtTelefono";
+            this.txtTelefono.Size = new System.Drawing.Size(165, 20);
+            this.txtTelefono.TabIndex = 16;
             // 
-            // txtBApellido
+            // txtApellidoPaterno
             // 
-            this.txtBApellido.Location = new System.Drawing.Point(361, 116);
-            this.txtBApellido.Name = "txtBApellido";
-            this.txtBApellido.Size = new System.Drawing.Size(165, 20);
-            this.txtBApellido.TabIndex = 17;
-            // 
-            // checkedListBox1
-            // 
-            this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Items.AddRange(new object[] {
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7"});
-            this.checkedListBox1.Location = new System.Drawing.Point(359, 195);
-            this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(166, 19);
-            this.checkedListBox1.TabIndex = 18;
+            this.txtApellidoPaterno.Location = new System.Drawing.Point(321, 141);
+            this.txtApellidoPaterno.Name = "txtApellidoPaterno";
+            this.txtApellidoPaterno.Size = new System.Drawing.Size(165, 20);
+            this.txtApellidoPaterno.TabIndex = 17;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(280, 86);
+            this.label4.Location = new System.Drawing.Point(235, 124);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(44, 13);
             this.label4.TabIndex = 19;
@@ -211,7 +206,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(280, 188);
+            this.label5.Location = new System.Drawing.Point(235, 86);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(65, 26);
             this.label5.TabIndex = 20;
@@ -220,7 +215,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(280, 162);
+            this.label6.Location = new System.Drawing.Point(235, 200);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(49, 13);
             this.label6.TabIndex = 21;
@@ -229,25 +224,97 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(280, 123);
+            this.label7.Location = new System.Drawing.Point(235, 148);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(44, 13);
+            this.label7.Size = new System.Drawing.Size(84, 13);
             this.label7.TabIndex = 22;
-            this.label7.Text = "Apellido";
+            this.label7.Text = "Apellido Peterno";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(235, 64);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(33, 13);
+            this.label8.TabIndex = 23;
+            this.label8.Text = "Mesa";
+            // 
+            // btnGuardar
+            // 
+            this.btnGuardar.Location = new System.Drawing.Point(545, 132);
+            this.btnGuardar.Name = "btnGuardar";
+            this.btnGuardar.Size = new System.Drawing.Size(113, 45);
+            this.btnGuardar.TabIndex = 27;
+            this.btnGuardar.Text = "Añadir Reserva";
+            this.btnGuardar.UseVisualStyleBackColor = true;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
+            // 
+            // dtpFecha
+            // 
+            this.dtpFecha.Location = new System.Drawing.Point(321, 237);
+            this.dtpFecha.Name = "dtpFecha";
+            this.dtpFecha.Size = new System.Drawing.Size(121, 20);
+            this.dtpFecha.TabIndex = 28;
+            // 
+            // numPersonas
+            // 
+            this.numPersonas.Location = new System.Drawing.Point(321, 86);
+            this.numPersonas.Name = "numPersonas";
+            this.numPersonas.Size = new System.Drawing.Size(112, 20);
+            this.numPersonas.TabIndex = 29;
+            // 
+            // numMesa
+            // 
+            this.numMesa.Location = new System.Drawing.Point(321, 57);
+            this.numMesa.Name = "numMesa";
+            this.numMesa.Size = new System.Drawing.Size(112, 20);
+            this.numMesa.TabIndex = 30;
+            // 
+            // txtApellidoMaterno
+            // 
+            this.txtApellidoMaterno.Location = new System.Drawing.Point(321, 167);
+            this.txtApellidoMaterno.Name = "txtApellidoMaterno";
+            this.txtApellidoMaterno.Size = new System.Drawing.Size(165, 20);
+            this.txtApellidoMaterno.TabIndex = 31;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(235, 174);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(86, 13);
+            this.label10.TabIndex = 32;
+            this.label10.Text = "Apellido Materno";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(237, 227);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(42, 39);
+            this.label9.TabIndex = 33;
+            this.label9.Text = "Fecha\r\npara la\r\nreserva";
             // 
             // FormAñadirReservas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.txtApellidoMaterno);
+            this.Controls.Add(this.numMesa);
+            this.Controls.Add(this.numPersonas);
+            this.Controls.Add(this.dtpFecha);
+            this.Controls.Add(this.btnGuardar);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.checkedListBox1);
-            this.Controls.Add(this.txtBApellido);
-            this.Controls.Add(this.txtBTelefono);
-            this.Controls.Add(this.txtBNombre);
+            this.Controls.Add(this.txtApellidoPaterno);
+            this.Controls.Add(this.txtTelefono);
+            this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "FormAñadirReservas";
@@ -257,6 +324,8 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numPersonas)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numMesa)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -272,14 +341,21 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button BtnCerrarSesion;
-        private System.Windows.Forms.TextBox txtBNombre;
+        private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
-        private System.Windows.Forms.TextBox txtBTelefono;
-        private System.Windows.Forms.TextBox txtBApellido;
-        private System.Windows.Forms.CheckedListBox checkedListBox1;
+        private System.Windows.Forms.TextBox txtTelefono;
+        private System.Windows.Forms.TextBox txtApellidoPaterno;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Button btnGuardar;
+        private System.Windows.Forms.DateTimePicker dtpFecha;
+        private System.Windows.Forms.NumericUpDown numPersonas;
+        private System.Windows.Forms.NumericUpDown numMesa;
+        private System.Windows.Forms.TextBox txtApellidoMaterno;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label9;
     }
 }
