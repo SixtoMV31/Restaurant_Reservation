@@ -140,7 +140,12 @@ namespace Reservacion_Restaurante.Form_sistemas
                         break;
                     }
                 }
-                return nodo;
+                if(nodo != null)
+                {
+                    return nodo;
+                }
+                else
+                { return null; }
             }
             else { return null; }
         }
@@ -212,6 +217,8 @@ namespace Reservacion_Restaurante.Form_sistemas
                 return $"error al insertar reserva: {ex.Message}";
             }
         }
+
+
 
 
 
@@ -299,6 +306,7 @@ namespace Reservacion_Restaurante.Form_sistemas
                                MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+        
         private void LimpiarCampos()
         {
             // Limpiar todos los campos del formulario
