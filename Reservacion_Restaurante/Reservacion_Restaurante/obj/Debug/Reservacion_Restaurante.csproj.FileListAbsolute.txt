@@ -26,3 +26,9 @@ C:\Users\jorge\Restaurant_Reservation\Reservacion_Restaurante\Reservacion_Restau
 C:\Users\jorge\Restaurant_Reservation\Reservacion_Restaurante\Reservacion_Restaurante\obj\Debug\Reservacion_Restaurante.Form_sistemas.FormAñadirReservas.resources
 C:\Users\jorge\Restaurant_Reservation\Reservacion_Restaurante\Reservacion_Restaurante\obj\Debug\Reservacion_Restaurante.Form_sistemas.FormReservas.resources
 C:\Users\mende\Desktop\Sixto UNI\4° Semestre\Organizacion de datos\Proyecto Sistema Restaurante\Reservacion_Restaurante\Reservacion_Restaurante\obj\Debug\Reservacion_Restaurante.Form_sistemas.FormReservas.resources
+C:\Users\mende\Desktop\Sixto UNI\4° Semestre\Organizacion de datos\Proyecto Sistema Restaurante\Reservacion_Restaurante\Reservacion_Restaurante\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\mende\Desktop\Sixto UNI\4° Semestre\Organizacion de datos\Proyecto Sistema Restaurante\Reservacion_Restaurante\Reservacion_Restaurante\bin\Debug\itextsharp.dll
+C:\Users\mende\Desktop\Sixto UNI\4° Semestre\Organizacion de datos\Proyecto Sistema Restaurante\Reservacion_Restaurante\Reservacion_Restaurante\bin\Debug\itextsharp.xmlworker.dll
+C:\Users\mende\Desktop\Sixto UNI\4° Semestre\Organizacion de datos\Proyecto Sistema Restaurante\Reservacion_Restaurante\Reservacion_Restaurante\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\mende\Desktop\Sixto UNI\4° Semestre\Organizacion de datos\Proyecto Sistema Restaurante\Reservacion_Restaurante\Reservacion_Restaurante\bin\Debug\itextsharp.xml
+C:\Users\mende\Desktop\Sixto UNI\4° Semestre\Organizacion de datos\Proyecto Sistema Restaurante\Reservacion_Restaurante\Reservacion_Restaurante\obj\Debug\Reservacion_Restaurante.csproj.CopyComplete

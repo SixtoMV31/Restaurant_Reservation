@@ -47,13 +47,16 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.btnGuardar = new System.Windows.Forms.Button();
             this.dtpFecha = new System.Windows.Forms.DateTimePicker();
             this.numPersonas = new System.Windows.Forms.NumericUpDown();
             this.numMesa = new System.Windows.Forms.NumericUpDown();
             this.txtApellidoMaterno = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.Ticket = new System.Windows.Forms.Button();
+            this.btnGuardar = new System.Windows.Forms.Button();
+            this.label11 = new System.Windows.Forms.Label();
+            this.listApartado = new System.Windows.Forms.ListBox();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -239,19 +242,9 @@
             this.label8.TabIndex = 23;
             this.label8.Text = "Mesa";
             // 
-            // btnGuardar
-            // 
-            this.btnGuardar.Location = new System.Drawing.Point(545, 132);
-            this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(113, 45);
-            this.btnGuardar.TabIndex = 27;
-            this.btnGuardar.Text = "Añadir Reserva";
-            this.btnGuardar.UseVisualStyleBackColor = true;
-            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
-            // 
             // dtpFecha
             // 
-            this.dtpFecha.Location = new System.Drawing.Point(321, 237);
+            this.dtpFecha.Location = new System.Drawing.Point(321, 273);
             this.dtpFecha.Name = "dtpFecha";
             this.dtpFecha.Size = new System.Drawing.Size(121, 20);
             this.dtpFecha.TabIndex = 28;
@@ -266,6 +259,11 @@
             // numMesa
             // 
             this.numMesa.Location = new System.Drawing.Point(321, 57);
+            this.numMesa.Maximum = new decimal(new int[] {
+            20,
+            0,
+            0,
+            0});
             this.numMesa.Name = "numMesa";
             this.numMesa.Size = new System.Drawing.Size(112, 20);
             this.numMesa.TabIndex = 30;
@@ -289,17 +287,62 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(237, 227);
+            this.label9.Location = new System.Drawing.Point(237, 263);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(42, 39);
             this.label9.TabIndex = 33;
             this.label9.Text = "Fecha\r\npara la\r\nreserva";
+            // 
+            // Ticket
+            // 
+            this.Ticket.Location = new System.Drawing.Point(545, 193);
+            this.Ticket.Name = "Ticket";
+            this.Ticket.Size = new System.Drawing.Size(113, 45);
+            this.Ticket.TabIndex = 34;
+            this.Ticket.Text = "Imprimir ticket";
+            this.Ticket.UseVisualStyleBackColor = true;
+            this.Ticket.Click += new System.EventHandler(this.Ticket_Click);
+            // 
+            // btnGuardar
+            // 
+            this.btnGuardar.Location = new System.Drawing.Point(545, 132);
+            this.btnGuardar.Name = "btnGuardar";
+            this.btnGuardar.Size = new System.Drawing.Size(113, 45);
+            this.btnGuardar.TabIndex = 27;
+            this.btnGuardar.Text = "Añadir Reserva";
+            this.btnGuardar.UseVisualStyleBackColor = true;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(237, 235);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(78, 13);
+            this.label11.TabIndex = 35;
+            this.label11.Text = "Cant. Apartado";
+            // 
+            // listApartado
+            // 
+            this.listApartado.FormattingEnabled = true;
+            this.listApartado.Items.AddRange(new object[] {
+            "100",
+            "200",
+            "300",
+            "500"});
+            this.listApartado.Location = new System.Drawing.Point(327, 231);
+            this.listApartado.Name = "listApartado";
+            this.listApartado.Size = new System.Drawing.Size(159, 17);
+            this.listApartado.TabIndex = 36;
             // 
             // FormAñadirReservas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.listApartado);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.Ticket);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.txtApellidoMaterno);
@@ -350,12 +393,15 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Button btnGuardar;
         private System.Windows.Forms.DateTimePicker dtpFecha;
         private System.Windows.Forms.NumericUpDown numPersonas;
         private System.Windows.Forms.NumericUpDown numMesa;
         private System.Windows.Forms.TextBox txtApellidoMaterno;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Button Ticket;
+        private System.Windows.Forms.Button btnGuardar;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.ListBox listApartado;
     }
 }

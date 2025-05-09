@@ -36,7 +36,7 @@
             this.BtnCerrarSesion = new System.Windows.Forms.Button();
             this.btnReservas = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
-            this.btnMesas = new System.Windows.Forms.Button();
+            this.btnVerMesas = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -139,21 +139,21 @@
             this.label3.TabIndex = 0;
             this.label3.Text = "Buger king";
             // 
-            // btnMesas
+            // btnVerMesas
             // 
-            this.btnMesas.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnMesas.AutoSize = true;
-            this.btnMesas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMesas.ForeColor = System.Drawing.Color.Brown;
-            this.btnMesas.Image = global::Reservacion_Restaurante.Properties.Resources.dinner_table_1209474__1_;
-            this.btnMesas.Location = new System.Drawing.Point(512, 141);
-            this.btnMesas.Name = "btnMesas";
-            this.btnMesas.Size = new System.Drawing.Size(246, 139);
-            this.btnMesas.TabIndex = 8;
-            this.btnMesas.Text = "Ver Mesas Disponibles";
-            this.btnMesas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnMesas.UseVisualStyleBackColor = true;
-            this.btnMesas.Click += new System.EventHandler(this.btnMesas_Click);
+            this.btnVerMesas.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnVerMesas.AutoSize = true;
+            this.btnVerMesas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVerMesas.ForeColor = System.Drawing.Color.Brown;
+            this.btnVerMesas.Image = global::Reservacion_Restaurante.Properties.Resources.dinner_table_1209474__1_;
+            this.btnVerMesas.Location = new System.Drawing.Point(512, 141);
+            this.btnVerMesas.Name = "btnVerMesas";
+            this.btnVerMesas.Size = new System.Drawing.Size(246, 139);
+            this.btnVerMesas.TabIndex = 8;
+            this.btnVerMesas.Text = "Ver Mesas Disponibles";
+            this.btnVerMesas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnVerMesas.UseVisualStyleBackColor = true;
+            this.btnVerMesas.Click += new System.EventHandler(this.btnMesas_Click);
             // 
             // panel2
             // 
@@ -188,7 +188,7 @@
             this.BackgroundImage = global::Reservacion_Restaurante.Properties.Resources._800w_ix3sXZSPVeg;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnReservas);
-            this.Controls.Add(this.btnMesas);
+            this.Controls.Add(this.btnVerMesas);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "Empleado";
@@ -212,7 +212,7 @@
         private System.Windows.Forms.Button BtnCerrarSesion;
         private System.Windows.Forms.Button btnReservas;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button btnMesas;
+        private System.Windows.Forms.Button btnVerMesas;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel1;
     }
