@@ -61,6 +61,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form_sistemas\Empleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_sistemas\Empleados.Designer.cs">
+      <DependentUpon>Empleados.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form_sistemas\FormAñadirReservas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,6 +97,12 @@
     <Compile Include="Form_sistemas\OpcionesSistema.Designer.cs">
       <DependentUpon>OpcionesSistema.cs</DependentUpon>
     </Compile>
+    <Compile Include="Historial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Historial.Designer.cs">
+      <DependentUpon>Historial.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -99,14 +111,23 @@
     <EmbeddedResource Include="Form_sistemas\Empleado.resx">
       <DependentUpon>Empleado.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form_sistemas\Empleados.resx">
+      <DependentUpon>Empleados.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form_sistemas\FormAñadirReservas.resx">
       <DependentUpon>FormAñadirReservas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_sistemas\FormMesas.resx">
+      <DependentUpon>FormMesas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_sistemas\FormReservas.resx">
       <DependentUpon>FormReservas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_sistemas\OpcionesSistema.resx">
       <DependentUpon>OpcionesSistema.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Historial.resx">
+      <DependentUpon>Historial.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -162,6 +183,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\plantilla.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11zon_resized.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11zon_resized %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1746583801207.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

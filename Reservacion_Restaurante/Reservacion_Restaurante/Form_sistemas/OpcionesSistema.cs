@@ -22,6 +22,7 @@ namespace Reservacion_Restaurante.Form_sistemas
         {
             
             Form Reserva=new FormReservas();
+            
             Reserva.Show();
             this.Close();
             //OpcionesSistema opcionesSistema=new OpcionesSistema();
@@ -32,6 +33,7 @@ namespace Reservacion_Restaurante.Form_sistemas
         {
             Form Mesas=new FormMesas();
             Mesas.Show();
+            this.Close();
         }
 
         private void BtnCerrarSesion_Click(object sender, EventArgs e)
@@ -92,12 +94,16 @@ namespace Reservacion_Restaurante.Form_sistemas
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            Empleados empleados = new Empleados();
+            empleados.Show();
+            this.Close();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            Historial historial = new Historial();
+            historial.Show();
+            this.Close();
         }
     }
 }

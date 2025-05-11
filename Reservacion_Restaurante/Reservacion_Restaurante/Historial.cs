@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Reservacion_Restaurante.Form_sistemas;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -9,22 +10,24 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Reservacion_Restaurante.Form_sistemas
+namespace Reservacion_Restaurante
 {
-    public partial class FormMesas : Form
+    public partial class Historial : Form
     {
-        static string Ruta = "Expedientes.Dat";
-        public FormMesas()
+        static string Ruta = "Tienda.Dat";
+        public Historial()
         {
             InitializeComponent();
+            //datHistorial.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
         }
 
-        private void FormMesas_Load(object sender, EventArgs e)
+        private void Historial_Load(object sender, EventArgs e)
         {
-            Mostar(ref datExpedientes, Ruta);
+            MostrarHistorial(ref datHistorial, Ruta);
         }
-        public void Mostar(ref DataGridView reserva, string ruta)
+        public void MostrarHistorial(ref DataGridView reserva, string ruta)
         {
+            long SumaDePagos = 0;
             try
             {
                 reserva.Rows.Clear();
@@ -35,7 +38,7 @@ namespace Reservacion_Restaurante.Form_sistemas
                     while (fs.Position < fs.Length)
                     {
 
-                        int id = br.ReadInt32();
+                        int mesa = br.ReadInt32();
 
                         int longitudNombre = br.ReadInt32();
                         string nombre = Encoding.ASCII.GetString(br.ReadBytes(30), 0, longitudNombre);
@@ -48,21 +51,24 @@ namespace Reservacion_Restaurante.Form_sistemas
 
                         long telefono = br.ReadInt64();
 
-                        int lgdireccion = br.ReadInt32();
-                        string direccion = Encoding.ASCII.GetString(br.ReadBytes(30), 0, lgdireccion);
+                        long Apartado = br.ReadInt64();
 
-                        int lgcorreo = br.ReadInt32();
-                        string correo = Encoding.ASCII.GetString(br.ReadBytes(35), 0, lgcorreo);
+                        int numPersonas = br.ReadInt32();
 
-                        int lgcargo = br.ReadInt32();
-                        string cargo = Encoding.ASCII.GetString(br.ReadBytes(15), 0, lgcargo);
+                        int longitudFecha = br.ReadInt32();
+                        string fecha = Encoding.ASCII.GetString(br.ReadBytes(20), 0, longitudFecha);
 
+                        bool estado = br.ReadBoolean();
 
-
-                       
-                            reserva.Rows.Add(id, nombre, apellidoP, apellidoM, telefono, direccion, correo, cargo);
+                        if (estado == true)
+                        {
+                            reserva.Rows.Add(mesa, nombre, apellidoP, apellidoM, fecha, Apartado);
+                            SumaDePagos += Apartado;
+                        }
                         
+                        //reserva.Rows.Add(mesa, numPersonas, nombre, apellidoP, apellidoM, telefono, fecha, Apartado, estado);
                     }
+                    txtSuma.Text = $"{SumaDePagos}";
                 }
             }
             catch (Exception ex)
@@ -71,7 +77,7 @@ namespace Reservacion_Restaurante.Form_sistemas
             }
         }
 
-        private void btnRegresar_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             OpcionesSistema op = new OpcionesSistema();
             if (op != null)
@@ -86,5 +92,11 @@ namespace Reservacion_Restaurante.Form_sistemas
                 this.Close();
             }
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
+    
 }

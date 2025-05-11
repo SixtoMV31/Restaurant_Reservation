@@ -3,12 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{43A0C41D-B077-4CF2-B963-C9C39BD714E2}|Reservacion_Restaurante\\Reservacion_Restaurante.csproj|C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\reservacion_restaurante\\form_sistemas\\formreservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43A0C41D-B077-4CF2-B963-C9C39BD714E2}|Reservacion_Restaurante\\Reservacion_Restaurante.csproj|solutionrelative:reservacion_restaurante\\form_sistemas\\formreservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{43A0C41D-B077-4CF2-B963-C9C39BD714E2}|Reservacion_Restaurante\\Reservacion_Restaurante.csproj|C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\reservacion_restaurante\\form_sistemas\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43A0C41D-B077-4CF2-B963-C9C39BD714E2}|Reservacion_Restaurante\\Reservacion_Restaurante.csproj|solutionrelative:reservacion_restaurante\\form_sistemas\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43A0C41D-B077-4CF2-B963-C9C39BD714E2}|Reservacion_Restaurante\\Reservacion_Restaurante.csproj|C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\reservacion_restaurante\\form_sistemas\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{43A0C41D-B077-4CF2-B963-C9C39BD714E2}|Reservacion_Restaurante\\Reservacion_Restaurante.csproj|solutionrelative:reservacion_restaurante\\form_sistemas\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43A0C41D-B077-4CF2-B963-C9C39BD714E2}|Reservacion_Restaurante\\Reservacion_Restaurante.csproj|C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\reservacion_restaurante\\historial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{43A0C41D-B077-4CF2-B963-C9C39BD714E2}|Reservacion_Restaurante\\Reservacion_Restaurante.csproj|solutionrelative:reservacion_restaurante\\historial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43A0C41D-B077-4CF2-B963-C9C39BD714E2}|Reservacion_Restaurante\\Reservacion_Restaurante.csproj|C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\reservacion_restaurante\\form_sistemas\\opcionessistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43A0C41D-B077-4CF2-B963-C9C39BD714E2}|Reservacion_Restaurante\\Reservacion_Restaurante.csproj|solutionrelative:reservacion_restaurante\\form_sistemas\\opcionessistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{43A0C41D-B077-4CF2-B963-C9C39BD714E2}|Reservacion_Restaurante\\Reservacion_Restaurante.csproj|c:\\users\\jorge\\restaurant_reservation\\reservacion_restaurante\\reservacion_restaurante\\form_sistemas\\formreservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{43A0C41D-B077-4CF2-B963-C9C39BD714E2}|Reservacion_Restaurante\\Reservacion_Restaurante.csproj|solutionrelative:reservacion_restaurante\\form_sistemas\\formreservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43A0C41D-B077-4CF2-B963-C9C39BD714E2}|Reservacion_Restaurante\\Reservacion_Restaurante.csproj|C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\reservacion_restaurante\\form_sistemas\\opcionessistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{43A0C41D-B077-4CF2-B963-C9C39BD714E2}|Reservacion_Restaurante\\Reservacion_Restaurante.csproj|solutionrelative:reservacion_restaurante\\form_sistemas\\opcionessistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43A0C41D-B077-4CF2-B963-C9C39BD714E2}|Reservacion_Restaurante\\Reservacion_Restaurante.csproj|C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\reservacion_restaurante\\form_sistemas\\formreservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43A0C41D-B077-4CF2-B963-C9C39BD714E2}|Reservacion_Restaurante\\Reservacion_Restaurante.csproj|solutionrelative:reservacion_restaurante\\form_sistemas\\formreservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43A0C41D-B077-4CF2-B963-C9C39BD714E2}|Reservacion_Restaurante\\Reservacion_Restaurante.csproj|C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\reservacion_restaurante\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{43A0C41D-B077-4CF2-B963-C9C39BD714E2}|Reservacion_Restaurante\\Reservacion_Restaurante.csproj|solutionrelative:reservacion_restaurante\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43A0C41D-B077-4CF2-B963-C9C39BD714E2}|Reservacion_Restaurante\\Reservacion_Restaurante.csproj|C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\reservacion_restaurante\\historial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43A0C41D-B077-4CF2-B963-C9C39BD714E2}|Reservacion_Restaurante\\Reservacion_Restaurante.csproj|solutionrelative:reservacion_restaurante\\historial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43A0C41D-B077-4CF2-B963-C9C39BD714E2}|Reservacion_Restaurante\\Reservacion_Restaurante.csproj|C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\reservacion_restaurante\\form_sistemas\\formmesas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{43A0C41D-B077-4CF2-B963-C9C39BD714E2}|Reservacion_Restaurante\\Reservacion_Restaurante.csproj|solutionrelative:reservacion_restaurante\\form_sistemas\\formmesas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43A0C41D-B077-4CF2-B963-C9C39BD714E2}|Reservacion_Restaurante\\Reservacion_Restaurante.csproj|C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\reservacion_restaurante\\form_sistemas\\formmesas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43A0C41D-B077-4CF2-B963-C9C39BD714E2}|Reservacion_Restaurante\\Reservacion_Restaurante.csproj|solutionrelative:reservacion_restaurante\\form_sistemas\\formmesas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43A0C41D-B077-4CF2-B963-C9C39BD714E2}|Reservacion_Restaurante\\Reservacion_Restaurante.csproj|C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\reservacion_restaurante\\form_sistemas\\forma\u00F1adirreservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43A0C41D-B077-4CF2-B963-C9C39BD714E2}|Reservacion_Restaurante\\Reservacion_Restaurante.csproj|solutionrelative:reservacion_restaurante\\form_sistemas\\forma\u00F1adirreservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43A0C41D-B077-4CF2-B963-C9C39BD714E2}|Reservacion_Restaurante\\Reservacion_Restaurante.csproj|C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\reservacion_restaurante\\form_sistemas\\forma\u00F1adirreservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{43A0C41D-B077-4CF2-B963-C9C39BD714E2}|Reservacion_Restaurante\\Reservacion_Restaurante.csproj|solutionrelative:reservacion_restaurante\\form_sistemas\\forma\u00F1adirreservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{43A0C41D-B077-4CF2-B963-C9C39BD714E2}|Reservacion_Restaurante\\Reservacion_Restaurante.csproj|C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\reservacion_restaurante\\form_sistemas\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -17,30 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{43A0C41D-B077-4CF2-B963-C9C39BD714E2}|Reservacion_Restaurante\\Reservacion_Restaurante.csproj|C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\reservacion_restaurante\\form_sistemas\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{43A0C41D-B077-4CF2-B963-C9C39BD714E2}|Reservacion_Restaurante\\Reservacion_Restaurante.csproj|solutionrelative:reservacion_restaurante\\form_sistemas\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43A0C41D-B077-4CF2-B963-C9C39BD714E2}|Reservacion_Restaurante\\Reservacion_Restaurante.csproj|C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\reservacion_restaurante\\form_sistemas\\forma\u00F1adirreservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{43A0C41D-B077-4CF2-B963-C9C39BD714E2}|Reservacion_Restaurante\\Reservacion_Restaurante.csproj|solutionrelative:reservacion_restaurante\\form_sistemas\\forma\u00F1adirreservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43A0C41D-B077-4CF2-B963-C9C39BD714E2}|Reservacion_Restaurante\\Reservacion_Restaurante.csproj|C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\reservacion_restaurante\\form_sistemas\\forma\u00F1adirreservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43A0C41D-B077-4CF2-B963-C9C39BD714E2}|Reservacion_Restaurante\\Reservacion_Restaurante.csproj|solutionrelative:reservacion_restaurante\\form_sistemas\\forma\u00F1adirreservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43A0C41D-B077-4CF2-B963-C9C39BD714E2}|Reservacion_Restaurante\\Reservacion_Restaurante.csproj|C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\reservacion_restaurante\\form_sistemas\\formmesas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{43A0C41D-B077-4CF2-B963-C9C39BD714E2}|Reservacion_Restaurante\\Reservacion_Restaurante.csproj|solutionrelative:reservacion_restaurante\\form_sistemas\\formmesas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43A0C41D-B077-4CF2-B963-C9C39BD714E2}|Reservacion_Restaurante\\Reservacion_Restaurante.csproj|C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\reservacion_restaurante\\form_sistemas\\opcionessistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43A0C41D-B077-4CF2-B963-C9C39BD714E2}|Reservacion_Restaurante\\Reservacion_Restaurante.csproj|solutionrelative:reservacion_restaurante\\form_sistemas\\opcionessistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43A0C41D-B077-4CF2-B963-C9C39BD714E2}|Reservacion_Restaurante\\Reservacion_Restaurante.csproj|C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\reservacion_restaurante\\form_sistemas\\opcionessistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{43A0C41D-B077-4CF2-B963-C9C39BD714E2}|Reservacion_Restaurante\\Reservacion_Restaurante.csproj|solutionrelative:reservacion_restaurante\\form_sistemas\\opcionessistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43A0C41D-B077-4CF2-B963-C9C39BD714E2}|Reservacion_Restaurante\\Reservacion_Restaurante.csproj|C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\reservacion_restaurante\\form_sistemas\\formreservas.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43A0C41D-B077-4CF2-B963-C9C39BD714E2}|Reservacion_Restaurante\\Reservacion_Restaurante.csproj|solutionrelative:reservacion_restaurante\\form_sistemas\\formreservas.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,24 +70,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FormReservas.cs",
-              "DocumentMoniker": "C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\Reservacion_Restaurante\\Form_sistemas\\FormReservas.cs",
-              "RelativeDocumentMoniker": "Reservacion_Restaurante\\Form_sistemas\\FormReservas.cs",
-              "ToolTip": "C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\Reservacion_Restaurante\\Form_sistemas\\FormReservas.cs",
-              "RelativeToolTip": "Reservacion_Restaurante\\Form_sistemas\\FormReservas.cs",
-              "ViewState": "AQIAAGMAAAAAAAAAAAAowHcAAAANAAAA",
+              "DocumentIndex": 3,
+              "Title": "OpcionesSistema.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\Reservacion_Restaurante\\Form_sistemas\\OpcionesSistema.cs",
+              "RelativeDocumentMoniker": "Reservacion_Restaurante\\Form_sistemas\\OpcionesSistema.cs",
+              "ToolTip": "C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\Reservacion_Restaurante\\Form_sistemas\\OpcionesSistema.cs",
+              "RelativeToolTip": "Reservacion_Restaurante\\Form_sistemas\\OpcionesSistema.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAkwCMAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T04:23:03.837Z",
+              "WhenOpened": "2025-04-09T04:22:44.248Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "FormReservas.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\Reservacion_Restaurante\\Form_sistemas\\FormReservas.cs",
               "RelativeDocumentMoniker": "Reservacion_Restaurante\\Form_sistemas\\FormReservas.cs",
@@ -79,53 +99,92 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Empleado.cs",
-              "DocumentMoniker": "C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\Reservacion_Restaurante\\Form_sistemas\\Empleado.cs",
-              "RelativeDocumentMoniker": "Reservacion_Restaurante\\Form_sistemas\\Empleado.cs",
-              "ToolTip": "C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\Reservacion_Restaurante\\Form_sistemas\\Empleado.cs",
-              "RelativeToolTip": "Reservacion_Restaurante\\Form_sistemas\\Empleado.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T03:55:16.896Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FormA\u00F1adirReservas.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\Reservacion_Restaurante\\Form_sistemas\\FormA\u00F1adirReservas.cs",
-              "RelativeDocumentMoniker": "Reservacion_Restaurante\\Form_sistemas\\FormA\u00F1adirReservas.cs",
-              "ToolTip": "C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\Reservacion_Restaurante\\Form_sistemas\\FormA\u00F1adirReservas.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Reservacion_Restaurante\\Form_sistemas\\FormA\u00F1adirReservas.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T04:21:43.624Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FormA\u00F1adirReservas.cs",
-              "DocumentMoniker": "C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\Reservacion_Restaurante\\Form_sistemas\\FormA\u00F1adirReservas.cs",
-              "RelativeDocumentMoniker": "Reservacion_Restaurante\\Form_sistemas\\FormA\u00F1adirReservas.cs",
-              "ToolTip": "C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\Reservacion_Restaurante\\Form_sistemas\\FormA\u00F1adirReservas.cs",
-              "RelativeToolTip": "Reservacion_Restaurante\\Form_sistemas\\FormA\u00F1adirReservas.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAAwJMAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T04:22:10.736Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Empleado.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\Reservacion_Restaurante\\Form_sistemas\\Empleado.cs",
-              "RelativeDocumentMoniker": "Reservacion_Restaurante\\Form_sistemas\\Empleado.cs",
-              "ToolTip": "C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\Reservacion_Restaurante\\Form_sistemas\\Empleado.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Reservacion_Restaurante\\Form_sistemas\\Empleado.cs [Dise\u00F1o]",
+              "Title": "Historial.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\Reservacion_Restaurante\\Historial.cs",
+              "RelativeDocumentMoniker": "Reservacion_Restaurante\\Historial.cs",
+              "ToolTip": "C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\Reservacion_Restaurante\\Historial.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Reservacion_Restaurante\\Historial.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T04:13:09.524Z"
+              "WhenOpened": "2025-05-10T02:48:26.548Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "FormReservas.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\Reservacion_Restaurante\\Form_sistemas\\FormReservas.cs",
+              "RelativeDocumentMoniker": "Reservacion_Restaurante\\Form_sistemas\\FormReservas.cs",
+              "ToolTip": "C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\Reservacion_Restaurante\\Form_sistemas\\FormReservas.cs",
+              "RelativeToolTip": "Reservacion_Restaurante\\Form_sistemas\\FormReservas.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T04:23:03.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Empleados.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\Reservacion_Restaurante\\Form_sistemas\\Empleados.cs",
+              "RelativeDocumentMoniker": "Reservacion_Restaurante\\Form_sistemas\\Empleados.cs",
+              "ToolTip": "C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\Reservacion_Restaurante\\Form_sistemas\\Empleados.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Reservacion_Restaurante\\Form_sistemas\\Empleados.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T03:32:55.635Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Empleados.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\Reservacion_Restaurante\\Form_sistemas\\Empleados.cs",
+              "RelativeDocumentMoniker": "Reservacion_Restaurante\\Form_sistemas\\Empleados.cs",
+              "ToolTip": "C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\Reservacion_Restaurante\\Form_sistemas\\Empleados.cs",
+              "RelativeToolTip": "Reservacion_Restaurante\\Form_sistemas\\Empleados.cs",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAswBQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T03:41:59.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OpcionesSistema.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\Reservacion_Restaurante\\Form_sistemas\\OpcionesSistema.cs",
+              "RelativeDocumentMoniker": "Reservacion_Restaurante\\Form_sistemas\\OpcionesSistema.cs",
+              "ToolTip": "C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\Reservacion_Restaurante\\Form_sistemas\\OpcionesSistema.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Reservacion_Restaurante\\Form_sistemas\\OpcionesSistema.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T20:01:02.416Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\Reservacion_Restaurante\\Form1.cs",
+              "RelativeDocumentMoniker": "Reservacion_Restaurante\\Form1.cs",
+              "ToolTip": "C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\Reservacion_Restaurante\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Reservacion_Restaurante\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T01:06:35.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Historial.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\Reservacion_Restaurante\\Historial.cs",
+              "RelativeDocumentMoniker": "Reservacion_Restaurante\\Historial.cs",
+              "ToolTip": "C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\Reservacion_Restaurante\\Historial.cs",
+              "RelativeToolTip": "Reservacion_Restaurante\\Historial.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAYwGEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T02:58:38.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "FormMesas.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\Reservacion_Restaurante\\Form_sistemas\\FormMesas.cs",
               "RelativeDocumentMoniker": "Reservacion_Restaurante\\Form_sistemas\\FormMesas.cs",
@@ -136,38 +195,61 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "OpcionesSistema.cs",
-              "DocumentMoniker": "C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\Reservacion_Restaurante\\Form_sistemas\\OpcionesSistema.cs",
-              "RelativeDocumentMoniker": "Reservacion_Restaurante\\Form_sistemas\\OpcionesSistema.cs",
-              "ToolTip": "C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\Reservacion_Restaurante\\Form_sistemas\\OpcionesSistema.cs",
-              "RelativeToolTip": "Reservacion_Restaurante\\Form_sistemas\\OpcionesSistema.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAQwBYAAAAMAAAA",
+              "DocumentIndex": 10,
+              "Title": "FormMesas.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\Reservacion_Restaurante\\Form_sistemas\\FormMesas.cs",
+              "RelativeDocumentMoniker": "Reservacion_Restaurante\\Form_sistemas\\FormMesas.cs",
+              "ToolTip": "C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\Reservacion_Restaurante\\Form_sistemas\\FormMesas.cs",
+              "RelativeToolTip": "Reservacion_Restaurante\\Form_sistemas\\FormMesas.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAkwFYAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T04:22:44.248Z"
+              "WhenOpened": "2025-05-10T05:52:01.649Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "OpcionesSistema.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\Reservacion_Restaurante\\Form_sistemas\\OpcionesSistema.cs",
-              "RelativeDocumentMoniker": "Reservacion_Restaurante\\Form_sistemas\\OpcionesSistema.cs",
-              "ToolTip": "C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\Reservacion_Restaurante\\Form_sistemas\\OpcionesSistema.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Reservacion_Restaurante\\Form_sistemas\\OpcionesSistema.cs [Dise\u00F1o]",
+              "DocumentIndex": 11,
+              "Title": "FormA\u00F1adirReservas.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\Reservacion_Restaurante\\Form_sistemas\\FormA\u00F1adirReservas.cs",
+              "RelativeDocumentMoniker": "Reservacion_Restaurante\\Form_sistemas\\FormA\u00F1adirReservas.cs",
+              "ToolTip": "C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\Reservacion_Restaurante\\Form_sistemas\\FormA\u00F1adirReservas.cs",
+              "RelativeToolTip": "Reservacion_Restaurante\\Form_sistemas\\FormA\u00F1adirReservas.cs",
+              "ViewState": "AQIAAKMAAAAAAAAAAADwv1AAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T20:01:02.416Z"
+              "WhenOpened": "2025-04-09T04:22:10.736Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "FormReservas.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\Reservacion_Restaurante\\Form_sistemas\\FormReservas.Designer.cs",
-              "RelativeDocumentMoniker": "Reservacion_Restaurante\\Form_sistemas\\FormReservas.Designer.cs",
-              "ToolTip": "C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\Reservacion_Restaurante\\Form_sistemas\\FormReservas.Designer.cs",
-              "RelativeToolTip": "Reservacion_Restaurante\\Form_sistemas\\FormReservas.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHQAAAA4AAAA",
+              "DocumentIndex": 12,
+              "Title": "FormA\u00F1adirReservas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\Reservacion_Restaurante\\Form_sistemas\\FormA\u00F1adirReservas.cs",
+              "RelativeDocumentMoniker": "Reservacion_Restaurante\\Form_sistemas\\FormA\u00F1adirReservas.cs",
+              "ToolTip": "C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\Reservacion_Restaurante\\Form_sistemas\\FormA\u00F1adirReservas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Reservacion_Restaurante\\Form_sistemas\\FormA\u00F1adirReservas.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T22:19:16.906Z"
+              "WhenOpened": "2025-04-09T04:21:43.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Empleado.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\Reservacion_Restaurante\\Form_sistemas\\Empleado.cs",
+              "RelativeDocumentMoniker": "Reservacion_Restaurante\\Form_sistemas\\Empleado.cs",
+              "ToolTip": "C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\Reservacion_Restaurante\\Form_sistemas\\Empleado.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Reservacion_Restaurante\\Form_sistemas\\Empleado.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T04:13:09.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Empleado.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\Reservacion_Restaurante\\Form_sistemas\\Empleado.cs",
+              "RelativeDocumentMoniker": "Reservacion_Restaurante\\Form_sistemas\\Empleado.cs",
+              "ToolTip": "C:\\Users\\jorge\\Restaurant_Reservation\\Reservacion_Restaurante\\Reservacion_Restaurante\\Form_sistemas\\Empleado.cs",
+              "RelativeToolTip": "Reservacion_Restaurante\\Form_sistemas\\Empleado.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T03:55:16.896Z"
             }
           ]
         }

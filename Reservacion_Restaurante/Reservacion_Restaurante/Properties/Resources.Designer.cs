@@ -73,6 +73,36 @@ namespace Reservacion_Restaurante.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _11zon_resized {
+            get {
+                object obj = ResourceManager.GetObject("11zon_resized", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _11zon_resized__1_ {
+            get {
+                object obj = ResourceManager.GetObject("11zon_resized (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1746583801207 {
+            get {
+                object obj = ResourceManager.GetObject("1746583801207", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _1810747__1_ {
             get {
                 object obj = ResourceManager.GetObject("1810747 (1)", resourceCulture);
@@ -162,16 +192,25 @@ namespace Reservacion_Restaurante.Properties {
         
         /// <summary>
         ///   Busca una cadena traducida similar a &lt;!DOCTYPE html&gt;
-        ///&lt;html lang=&quot;en&quot;&gt;
+        ///&lt;!--&lt;html lang=&quot;en&quot;&gt;--&gt;
+        ///&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
         ///&lt;head&gt;
-        ///    &lt;meta charset=&quot;UTF-8&quot;&gt;
-        ///    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
-        ///    &lt;title&gt;Document&lt;/title&gt;
-        ///&lt;/head&gt;
-        ///&lt;body&gt;
-        ///    
-        ///&lt;/body&gt;
-        ///&lt;/html&gt;.
+        ///    &lt;!--&lt;meta charset=&quot;UTF-8&quot;&gt;--&gt;
+        ///    &lt;!--&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;--&gt;
+        ///    &lt;title&gt;Documento PDF&lt;/title&gt;
+        ///
+        ///    &lt;style&gt;
+        ///        body {
+        ///            font-family: Arial, sans-serif;
+        ///            margin: 0;
+        ///            padding: 20px;
+        ///        }
+        ///
+        ///        table.border {
+        ///            border-collapse: collapse;
+        ///            width: 100%;
+        ///            margin-bottom: 20px;
+        /// [resto de la cadena truncado]&quot;;.
         /// </summary>
         internal static string plantilla {
             get {

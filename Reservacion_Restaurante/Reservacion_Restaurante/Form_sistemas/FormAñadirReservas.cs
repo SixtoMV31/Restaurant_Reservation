@@ -203,8 +203,10 @@ namespace Reservacion_Restaurante.Form_sistemas
                     BytesApellido1.CopyTo(BytesTamañoRegistro, pos); pos += TAM_APELLIDO1;
                     BytesLongitudApellido2.CopyTo(BytesTamañoRegistro, pos); pos += TAM_LONGITUD_APELLIDO2;
                     BytesApellido2.CopyTo(BytesTamañoRegistro, pos); pos += TAM_APELLIDO2;
+
                     BytesTelefonoCliente.CopyTo(BytesTamañoRegistro, pos); pos += TAM_TELEFONO;
-                    bytesApartado.CopyTo(bytesApartado,pos);pos += TAM_APARTADO;
+
+                    bytesApartado.CopyTo(BytesTamañoRegistro,pos);pos += TAM_APARTADO;
                     BytesNumeroDePersonas.CopyTo(BytesTamañoRegistro, pos); pos += TAM_NUM_PERSONAS;
                     BytesLongitudFecha.CopyTo(BytesTamañoRegistro, pos); pos += TAM_LONGITUD_FECHA;
                     BytesFechaCliente.CopyTo(BytesTamañoRegistro, pos); pos += TAM_FECHA;
@@ -388,7 +390,11 @@ namespace Reservacion_Restaurante.Form_sistemas
                
             }
         }
-       
+
+        private void listApartado_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
     
 }
