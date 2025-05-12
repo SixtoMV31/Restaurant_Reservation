@@ -224,12 +224,9 @@ namespace Reservacion_Restaurante.Form_sistemas
         {
             try
             {
-                string rutaTemporal = Path.GetTempFileName();
-
-                using (var fsLectura = new FileStream(ruta, FileMode.Open, FileAccess.Read))
-                using (var br = new BinaryReader(fsLectura))
-                using (var fsEscritura = new FileStream(rutaTemporal, FileMode.Create, FileAccess.Write))
-                using (var bw = new BinaryWriter(fsEscritura))
+                using (var fsLectura = new FileStream(ruta, FileMode.OpenOrCreate, FileAccess.ReadWrite))
+                using (var br = new BinaryReader(fsLectura))                
+                using (var bw = new BinaryWriter(fsLectura))
                 {
                     while (fsLectura.Position < fsLectura.Length)
                     {
@@ -273,14 +270,13 @@ namespace Reservacion_Restaurante.Form_sistemas
                     }
                 }
 
-                File.Delete(ruta);
-                File.Move(rutaTemporal, ruta);
+
 
                 return true;
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Error al eliminar la mesa {numeroMesa}: {ex.Message}", "Error",
+                MessageBox.Show($"Error al eliminar la mesa {numeroMesa}", "Error",
                                     MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
