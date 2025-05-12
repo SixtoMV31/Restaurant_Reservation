@@ -48,13 +48,13 @@ namespace Reservacion_Restaurante.Form_sistemas
                         int mesa = br.ReadInt32();
 
                         int longitudNombre = br.ReadInt32();
-                        string nombre = Encoding.ASCII.GetString(br.ReadBytes(30), 0, longitudNombre);
+                        string nombre = Encoding.ASCII.GetString(br.ReadBytes(30), 0, (longitudNombre));
 
                         int longitudApellido1 = br.ReadInt32();
-                        string apellidoP = Encoding.ASCII.GetString(br.ReadBytes(20), 0, longitudApellido1);
+                        string apellidoP = Encoding.ASCII.GetString(br.ReadBytes(20), 0, (longitudApellido1));
 
                         int longitudApellido2 = br.ReadInt32();
-                        string apellidoM = Encoding.ASCII.GetString(br.ReadBytes(20), 0, longitudApellido2);
+                        string apellidoM = Encoding.ASCII.GetString(br.ReadBytes(20), 0, (longitudApellido2));
 
                         long telefono = br.ReadInt64();
 
@@ -63,7 +63,7 @@ namespace Reservacion_Restaurante.Form_sistemas
                         int numPersonas = br.ReadInt32();
 
                         int longitudFecha = br.ReadInt32();
-                        string fecha = Encoding.ASCII.GetString(br.ReadBytes(20), 0, longitudFecha);
+                        string fecha = Encoding.ASCII.GetString(br.ReadBytes(20), 0, (longitudFecha));
 
                         bool estado = br.ReadBoolean();
 
@@ -224,9 +224,12 @@ namespace Reservacion_Restaurante.Form_sistemas
         {
             try
             {
-                using (var fsLectura = new FileStream(ruta, FileMode.OpenOrCreate, FileAccess.ReadWrite))
-                using (var br = new BinaryReader(fsLectura))                
-                using (var bw = new BinaryWriter(fsLectura))
+                string rutaTemporal = Path.GetTempFileName();
+
+                using (var fsLectura = new FileStream(ruta, FileMode.Open, FileAccess.Read))
+                using (var br = new BinaryReader(fsLectura))
+                using (var fsEscritura = new FileStream(rutaTemporal, FileMode.Create, FileAccess.Write))
+                using (var bw = new BinaryWriter(fsEscritura))
                 {
                     while (fsLectura.Position < fsLectura.Length)
                     {
@@ -248,9 +251,6 @@ namespace Reservacion_Restaurante.Form_sistemas
                         long telefono = br.ReadInt64();
                         bw.Write(telefono);
 
-                        long Apartado = br.ReadInt64();
-                        bw.Write(Apartado);
-
                         int numPersonas = br.ReadInt32();
                         bw.Write(numPersonas);
 
@@ -270,13 +270,14 @@ namespace Reservacion_Restaurante.Form_sistemas
                     }
                 }
 
-
+                File.Delete(ruta);
+                File.Move(rutaTemporal, ruta);
 
                 return true;
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Error al eliminar la mesa {numeroMesa}", "Error",
+                MessageBox.Show($"Error al actualizar el estado de la mesa {numeroMesa}: {ex.Message}", "Error",
                                     MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
