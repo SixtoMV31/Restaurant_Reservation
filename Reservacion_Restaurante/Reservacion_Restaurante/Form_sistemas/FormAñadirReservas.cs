@@ -228,13 +228,9 @@ namespace Reservacion_Restaurante.Form_sistemas
             }
         }
 
-
-
-
-
         private void button1_Click(object sender, EventArgs e)
         {
-            Form1 RegresarEmpleado = new Form1();
+            Login RegresarEmpleado = new Login();
             if (RegresarEmpleado != null)
             {
                 RegresarEmpleado.Show();
@@ -242,20 +238,14 @@ namespace Reservacion_Restaurante.Form_sistemas
             }
             else
             {
-                Form anteriorEmpleado = new Form1();
+                Form anteriorEmpleado = new Login();
                 anteriorEmpleado.Show();
                 this.Close();
             }
-        }
-        private void txtBNombre_TextChanged(object sender, EventArgs e)
-        {
-        }
 
-        private void label9_Click(object sender, EventArgs e)
-        {
 
         }
-
+       
         private void btnGuardar_Click(object sender, EventArgs e)
         {
             try
@@ -283,7 +273,17 @@ namespace Reservacion_Restaurante.Form_sistemas
 
                 NumeroPersonas = (int)numPersonas.Value;
                 NumeroMesa = (int)numMesa.Value;
-                Apartado=(long)listApartado.SelectedIndex;
+                //Apartado=(long)listApartado.SelectedIndex;
+                if (listApartado.SelectedItem != null & long.TryParse(listApartado.SelectedItem.ToString(), out long apartadoValue))
+                {
+                    Apartado = apartadoValue;
+                }
+                else
+                {
+                    MessageBox.Show("Por favor seleccione un monto válido para el apartado", "Error",
+                                       MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
                 Fecha = dtpFecha.Value.ToString("yyyy-MM-dd HH:mm");
 
                 EstadoReserva = true;
@@ -303,11 +303,7 @@ namespace Reservacion_Restaurante.Form_sistemas
                 MessageBox.Show(resultado, "Información", MessageBoxButtons.OK,
                                resultado.Contains("éxito") ? MessageBoxIcon.Information : MessageBoxIcon.Warning);
 
-                // Si se insertó correctamente esto debe limpiar ls datos
-                if (resultado.Contains("éxito"))
-                {
-                    LimpiarCampos();
-                }
+                
 
                 // Regenerar la lista de índices en el archivo
                 GenerarListaIndices(Ruta);
@@ -336,7 +332,7 @@ namespace Reservacion_Restaurante.Form_sistemas
         {
             SaveFileDialog guardarpdf = new SaveFileDialog();
             guardarpdf.FileName = string.Format("{0}.pdf", DateTime.Now.ToString("ddMMyyyyHHmmss"));
-            
+
 
             string paginaHtml_texto = Properties.Resources.plantilla.ToString();
             if (!paginaHtml_texto.Contains("<meta charset="))
@@ -349,7 +345,12 @@ namespace Reservacion_Restaurante.Form_sistemas
             paginaHtml_texto = paginaHtml_texto.Replace("@APELLIDO2", txtApellidoMaterno.Text);
             paginaHtml_texto = paginaHtml_texto.Replace("@NumMesa", numMesa.Value.ToString());
             paginaHtml_texto = paginaHtml_texto.Replace("@NumPersonas", numPersonas.Value.ToString());
+
             paginaHtml_texto = paginaHtml_texto.Replace("@NumTelefono", txtTelefono.Text);
+            paginaHtml_texto = paginaHtml_texto.Replace("@Precio", listApartado.Text);
+            paginaHtml_texto = paginaHtml_texto.Replace("@Total", listApartado.Text);
+            paginaHtml_texto = paginaHtml_texto.Replace("@totales", listApartado.Text);
+
             paginaHtml_texto = paginaHtml_texto.Replace("@Fecha", dtpFecha.Value.ToString("dd/MM/yyyy"));
 
             
@@ -366,11 +367,7 @@ namespace Reservacion_Restaurante.Form_sistemas
                         byte[] byteArray = System.Text.Encoding.UTF8.GetBytes(paginaHtml_texto);
                         using (MemoryStream ms = new MemoryStream(byteArray))
                         {
-                            // Asegúrate de agregar estos using:
-                            // using iTextSharp.tool.xml;
-                            // using System.Text;
-
-                            // Usar el método ParseXHtml con codificación UTF-8 explícita
+                           
                             XMLWorkerHelper.GetInstance().ParseXHtml(
                                 write,
                                 pdfdoc,
@@ -391,10 +388,319 @@ namespace Reservacion_Restaurante.Form_sistemas
             }
         }
 
-        private void listApartado_SelectedIndexChanged(object sender, EventArgs e)
+       //ESTOS MET0D0S SON PARA GENERAR LA VENTANA DE MESAS OCUPADAS
+
+        private void btnVerMesas_Click(object sender, EventArgs e)
+        {
+            
+            try
+            {
+                
+                GenerarListaIndices(Ruta);
+
+               
+                Form estadoMesasForm = new Form()
+                {
+                    Text = "Estado de Mesas",
+                    Width = 400,
+                    Height = 500,
+                    FormBorderStyle = FormBorderStyle.FixedDialog,
+                    StartPosition = FormStartPosition.CenterParent,
+                    MaximizeBox = false,
+                    MinimizeBox = false
+                };
+
+                
+                Panel mainPanel = new Panel()
+                {
+                    Dock = DockStyle.Fill,
+                    AutoScroll = true,
+                    BackColor = Color.White
+                };
+
+               
+                Label titulo = new Label()
+                {
+                    Text = "ESTADO DE MESAS",
+                    Font = new System.Drawing.Font("Arial", 14, FontStyle.Bold),
+                    ForeColor = Color.DarkSlateBlue,
+                    AutoSize = true,
+                    Top = 20,
+                    Left = (estadoMesasForm.Width - 150) / 2
+                };
+
+                
+                Label subtituloOcupadas = new Label()
+                {
+                    Text = "Mesas Ocupadas",
+                    Font = new System.Drawing.Font("Arial", 10, FontStyle.Bold),
+                    ForeColor = Color.Red,
+                    AutoSize = true,
+                    Top = 60,
+                    Left = 20
+                };
+
+               
+                FlowLayoutPanel panelOcupadas = new FlowLayoutPanel()
+                {
+                    AutoSize = true,
+                    AutoSizeMode = AutoSizeMode.GrowAndShrink,
+                    Top = 90,
+                    Left = 20,
+                    Width = estadoMesasForm.Width - 40,
+                    WrapContents = true
+                };
+
+                
+                Label subtituloDisponibles = new Label()
+                {
+                    Text = "Mesas Disponibles",
+                    Font = new System.Drawing.Font("Arial", 10, FontStyle.Bold),
+                    ForeColor = Color.Green,
+                    AutoSize = true,
+                    Top = 200,
+                    Left = 20
+                };
+
+                
+                FlowLayoutPanel panelDisponibles = new FlowLayoutPanel()
+                {
+                    AutoSize = true,
+                    AutoSizeMode = AutoSizeMode.GrowAndShrink,
+                    Top = 230,
+                    Left = 20,
+                    Width = estadoMesasForm.Width - 40,
+                    WrapContents = true
+                };
+
+                
+                int totalMesas = 20;
+                var mesasOcupadas = new List<int>();
+
+                
+                foreach (var nodo in ListaIndices)
+                {
+                    if (nodo != null)
+                    {
+                        mesasOcupadas.Add(nodo.Indice);
+                    }
+                }
+
+                
+                foreach (int mesa in mesasOcupadas)
+                {
+                    Panel mesaPanel = CreateMesaPanel(mesa, Color.Red, "Ocupada");
+                    panelOcupadas.Controls.Add(mesaPanel);
+                }
+
+                if (panelOcupadas.Controls.Count == 0)
+                {
+                    panelOcupadas.Controls.Add(new Label()
+                    {
+                        Text = "No hay mesas ocupadas",
+                        ForeColor = Color.Gray,
+                        AutoSize = true
+                    });
+                }
+
+                
+                var mesasDisponibles = Enumerable.Range(1, totalMesas).Except(mesasOcupadas).ToList();
+                foreach (int mesa in mesasDisponibles)
+                {
+                    Panel mesaPanel = CreateMesaPanel(mesa, Color.Green, "Disponible");
+                    panelDisponibles.Controls.Add(mesaPanel);
+                }
+
+                if (panelDisponibles.Controls.Count == 0)
+                {
+                    panelDisponibles.Controls.Add(new Label()
+                    {
+                        Text = "No hay mesas disponibles",
+                        ForeColor = Color.Gray,
+                        AutoSize = true
+                    });
+                }
+
+                
+                Button btnCerrar = new Button()
+                {
+                    Text = "Cerrar",
+                    DialogResult = DialogResult.OK,
+                    Top = estadoMesasForm.Height - 80,
+                    Left = (estadoMesasForm.Width - 100) / 2,
+                    Size = new Size(100, 30),
+                    BackColor = Color.DarkSlateBlue,
+                    ForeColor = Color.White,
+                    FlatStyle = FlatStyle.Flat
+                };
+                btnCerrar.FlatAppearance.BorderSize = 0;
+                btnCerrar.Click += (s, ev) => estadoMesasForm.Close();
+
+                
+                mainPanel.Controls.Add(titulo);
+                mainPanel.Controls.Add(subtituloOcupadas);
+                mainPanel.Controls.Add(panelOcupadas);
+                mainPanel.Controls.Add(subtituloDisponibles);
+                mainPanel.Controls.Add(panelDisponibles);
+                mainPanel.Controls.Add(btnCerrar);
+
+                estadoMesasForm.Controls.Add(mainPanel);
+
+                
+                estadoMesasForm.ShowDialog();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error al obtener el estado de las mesas: {ex.Message}", "Error",
+                                MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+
+            
+            private Panel CreateMesaPanel(int numeroMesa, Color colorEstado, string estado)
+            {
+                Panel panel = new Panel()
+                {
+                    Width = 80,
+                    Height = 80,
+                    Margin = new Padding(10),
+                    BorderStyle = BorderStyle.FixedSingle,
+                    BackColor = Color.WhiteSmoke
+                };
+
+                
+                PictureBox circle = new PictureBox()
+                {
+                    Width = 20,
+                    Height = 20,
+                    Top = 10,
+                    Left = (panel.Width - 20) / 2,
+                    BackColor = colorEstado,
+                    SizeMode = PictureBoxSizeMode.StretchImage
+                };
+
+                
+                Bitmap bmp = new Bitmap(circle.Width, circle.Height);
+                using (Graphics g = Graphics.FromImage(bmp))
+                {
+                    g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
+                    g.FillEllipse(new SolidBrush(colorEstado), 0, 0, circle.Width, circle.Height);
+                }
+                circle.Image = bmp;
+
+                
+                Label lblMesa = new Label()
+                {
+                    Text = $"Mesa {numeroMesa}",
+                    Font = new System.Drawing.Font("Arial", 10, System.Drawing.FontStyle.Bold),
+                    ForeColor = Color.Black,
+                    AutoSize = true,
+                    Top = 35,
+                    Left = (panel.Width - 50) / 2
+                };
+
+               
+                Label lblEstado = new Label()
+                {
+                    Text = estado,
+                    Font = new System.Drawing.Font("Arial", 8),
+                    ForeColor = colorEstado,
+                    AutoSize = true,
+                    Top = 55,
+                    Left = (panel.Width - 50) / 2
+                };
+
+                panel.Controls.Add(circle);
+                panel.Controls.Add(lblMesa);
+                panel.Controls.Add(lblEstado);
+
+                return panel;
+            }
+
+        private void btnLimpiar_Click(object sender, EventArgs e)
+        {
+            LimpiarCampos();
+        }
+
+        private void numMesa_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                e.Handled = true;
+                e.SuppressKeyPress = true;
+                numPersonas.Focus();
+            }
+        }
+
+        private void numPersonas_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                e.Handled = true;
+                e.SuppressKeyPress = true;
+                txtNombre.Focus();
+            }
+        }
+
+        private void txtNombre_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                e.Handled = true;
+                e.SuppressKeyPress = true;
+                txtApellidoPaterno.Focus();
+            }
+        }
+
+        private void txtApellidoPaterno_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                e.Handled = true;
+                e.SuppressKeyPress = true;
+                txtApellidoMaterno.Focus();
+            }
+        }
+        private void txtApellidoMaterno_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                e.Handled = true;
+                e.SuppressKeyPress = true;
+                txtTelefono.Focus();
+            }
+        }
+
+        private void txtTelefono_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                e.Handled = true;
+                e.SuppressKeyPress = true;
+                listApartado.Focus();
+            }
+        }
+
+        private void listApartado_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                e.Handled = true;
+                e.SuppressKeyPress = true;
+                dtpFecha.Focus();
+            }
+        }
+
+        private void dtpFecha_KeyDown(object sender, KeyEventArgs e)
         {
 
         }
+
+        private void BtnCerrarSesion_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
-    
 }
+    

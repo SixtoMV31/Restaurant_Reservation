@@ -43,7 +43,7 @@ namespace Reservacion_Restaurante.Form_sistemas
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form1 form1 = new Form1();
+            Login form1 = new Login();
             if (form1 != null)
             {
                 form1.Show();
@@ -51,7 +51,7 @@ namespace Reservacion_Restaurante.Form_sistemas
             }
             else
             {
-                Form anterior = new Form1();
+                Form anterior = new Login();
                 anterior.Show();
                 this.Close();
             }

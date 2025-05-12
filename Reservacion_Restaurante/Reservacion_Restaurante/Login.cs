@@ -12,9 +12,9 @@ using System.Runtime.InteropServices;
 
 namespace Reservacion_Restaurante
 {
-    public partial class Form1 : Form
+    public partial class Login : Form
     {
-        public Form1()
+        public Login()
         {
             InitializeComponent();
         }
@@ -42,9 +42,9 @@ namespace Reservacion_Restaurante
             }
             else if (txtUsuario.Text == "Sixto" && txtPass.Text == "5678")
             {
-                Empleado empleado = new Empleado();
+                FormAñadirReservas empleado = new FormAñadirReservas();
                 empleado.ShowDialog();
-                this.Close();
+                this.Hide();
 
             }
             else
@@ -115,10 +115,31 @@ namespace Reservacion_Restaurante
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
 
-        private void txtUsuario_KeyPress(object sender, KeyPressEventArgs e)
+        private void txtUsuario_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyChar == Convert.ToChar(Keys.Enter))
+            if (e.KeyCode == Keys.Enter)
+            {
+                e.Handled = true;
+                e.SuppressKeyPress = true;
                 txtPass.Focus();
+            }
+        }
+
+        private void txtPass_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                e.Handled = true;
+                e.SuppressKeyPress = true;
+                ACCEDER.Focus();
+            }
+        }
+
+        private void ACCEDER_KeyDown(object sender, KeyEventArgs e)
+        {
+            FormAñadirReservas empleado = new FormAñadirReservas();
+            empleado.ShowDialog();
+            this.Hide();
         }
     }
 }
