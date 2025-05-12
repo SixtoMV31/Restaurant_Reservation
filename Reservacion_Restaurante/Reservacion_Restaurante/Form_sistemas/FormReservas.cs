@@ -251,6 +251,9 @@ namespace Reservacion_Restaurante.Form_sistemas
                         long telefono = br.ReadInt64();
                         bw.Write(telefono);
 
+                        long costos = br.ReadInt64();
+                        bw.Write(costos);
+
                         int numPersonas = br.ReadInt32();
                         bw.Write(numPersonas);
 
